@@ -1,12 +1,18 @@
-# Semana_JSExpert
-Design Patterns My_Zoom
+# Projeto base da JS Expert Week 2.0
 
-" Sejam muito bem vindos a #SemanaJSExpert 2.0
+- Acesse o [home](./pages/home/index.html) para acessar a home page
+- Acesse o [room](./page/room/index.html) uma room específica
 
-Nesta aula, você vai entender a importancia de ser um dev especialista, o projeto que faremos durante a semana e a grande primeira aula.
+## Home Page
 
-Aqui você vai conhecer os Design Patterns Builder, Dependency Injection e Event Delegation além de princípios de encapsulamento, responsabilidade única e muito mais!
+![home page](./prints/home.png)
 
-Você vai obter o aúdio e vídeo dos usuarios a partir da API do Browser a getUserMedia além de criar salas de conferencias para multi-usuários.
+## Room
 
-Também vai criar um servidor de Web Socket usando SocketIO além de estabelecer a conexão entre cliente e servidor. "
+![room](./prints/room.png)
+
+### Créditos
+
+- Layout da home foi baseada no codepen do [Nelson Adonis Hernandez
+](https://codepen.io/nelsonher019/pen/eYZBqOm)
+- Layout da room foi adaptado a partir do repo do canal [CleverProgrammers](https://github.com/CleverProgrammers/nodejs-zoom-clone/blob/master/views/room.ejs)

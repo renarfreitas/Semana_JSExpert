@@ -1,17 +1,20 @@
 {
-  "name": "zoom-clone-template",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "http-server": "0.12.3"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "start": "npx http-server --cors .",
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "erickwendel",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
